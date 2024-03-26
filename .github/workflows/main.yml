@@ -33,12 +33,12 @@ jobs:
             - name: Aplicando as mudanças
               uses: appleboy/ssh-action@v1.0.3
               with:
-                host: ${{ secrets.host }}
-                username: ubuntu
-                key: ${{ secrets.key }}
-                port: 22
-                #server é nome da nossa aplicação no PM2
-                script: | 
-                 cd /home/ubunut/appdemo1
-                 npm install
-                 pm2 restart app
+                  host: ${{ secrets.host }}
+                  username: ubuntu
+                  key: ${{ secrets.key }}
+                  port: 22
+                  #server é nome da nossa aplicação no PM2
+                  script: | 
+                      cd /home/ubunut/appdemo1
+                      npm install
+                     pm2 restart app
