@@ -41,4 +41,4 @@ jobs:
                   script: | 
                       cd /home/ubunut/appdemo1
                       npm install
-                     pm2 restart app
+                      pm2 restart app
