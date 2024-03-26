@@ -39,6 +39,6 @@ jobs:
                   port: 22
                   #server é nome da nossa aplicação no PM2
                   script: | 
-                      cd /home/ubunut/appdemo1
+                      cd /home/ubuntu/appdemo1
                       npm install
                       pm2 restart app
